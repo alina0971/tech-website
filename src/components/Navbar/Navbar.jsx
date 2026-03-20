@@ -7,9 +7,9 @@ function Navbar() {
   const location = useLocation();
 
   const navLinks = [
-    { path: '/', label: '首页' },
-    { path: '/products', label: '产品' },
-    { path: '/contact', label: '联系我们' },
+    { path: '/tech-website/', label: '首页' },
+    { path: '/tech-website/products', label: '产品' },
+    { path: '/tech-website/contact', label: '联系我们' },
   ];
 
   const toggleMobileMenu = () => {
@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <Link to="/tech-website/" className="navbar-logo" onClick={closeMobileMenu}>
           <div className="logo-icon">⚡</div>
           <span>TechCorp</span>
         </Link>
@@ -38,7 +38,7 @@ function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link to="/contact" className="navbar-cta">
+          <Link to="/tech-website/contact" className="navbar-cta">
             免费咨询
           </Link>
         </div>
@@ -65,7 +65,7 @@ function Navbar() {
             {link.label}
           </Link>
         ))}
-        <Link to="/contact" className="navbar-cta" onClick={closeMobileMenu}>
+        <Link to="/tech-website/contact" className="navbar-cta" onClick={closeMobileMenu}>
           免费咨询
         </Link>
       </div>

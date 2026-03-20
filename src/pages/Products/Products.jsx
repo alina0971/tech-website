@@ -97,7 +97,7 @@ function Products() {
                     <li key={idx}>{feature}</li>
                   ))}
                 </ul>
-                <Link to="/contact" className="product-list-btn">
+                <Link to="/tech-website/contact" className="product-list-btn">
                   了解详情
                 </Link>
               </div>
@@ -127,7 +127,7 @@ function Products() {
       <section className="products-cta">
         <h2>需要定制化解决方案？</h2>
         <p>我们的专家团队将为您提供一对一咨询服务</p>
-        <Link to="/contact" className="btn-primary">
+        <Link to="/tech-website/contact" className="btn-primary">
           联系我们 →
         </Link>
       </section>

@@ -68,10 +68,10 @@ function Home() {
             为企业提供全方位的数字化转型服务，助力业务增长，开启智能化新时代
           </p>
           <div className="banner-cta-group">
-            <Link to="/contact" className="btn-primary">
+            <Link to="/tech-website/contact" className="btn-primary">
               免费试用 →
             </Link>
-            <Link to="/products" className="btn-secondary">
+            <Link to="/tech-website/products" className="btn-secondary">
               了解更多
             </Link>
           </div>
@@ -108,7 +108,7 @@ function Home() {
               <div className="product-info">
                 <h3>{product.title}</h3>
                 <p>{product.description}</p>
-                <Link to="/products" className="product-link">
+                <Link to="/tech-website/products" className="product-link">
                   查看详情 →
                 </Link>
               </div>
@@ -122,7 +122,7 @@ function Home() {
         <div className="cta-content">
           <h2>准备好开始了吗？</h2>
           <p>立即联系我们，获取专属解决方案和免费试用机会</p>
-          <Link to="/contact" className="cta-btn-white">
+          <Link to="/tech-website/contact" className="cta-btn-white">
             立即咨询 →
           </Link>
         </div>
