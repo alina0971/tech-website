@@ -25,7 +25,7 @@ function Navbar() {
       <div className="navbar-container">
         <Link to="/tech-website/" className="navbar-logo" onClick={closeMobileMenu}>
           <div className="logo-icon">⚡</div>
-          <span>TechCorp</span>
+          <span>丽凡科技</span>
         </Link>
 
         <div className="navbar-links">
